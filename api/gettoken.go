@@ -1,4 +1,4 @@
-package get
+package token
 
 import (
 	"encoding/json"
@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-func token() (string, int64) {
+func get() (string, int64) {
 
 	url := "https://homologacaoapi.nexoweb.com/nexoapirest/token"
 	method := "POST"
